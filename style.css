@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100%;
+   background-image: linear-gradient(to right,#051937,#004d7a,#008793,#00bf72,#a8eb12);
+}
+
+#wrapper{
+    text-align: center;
+    margin-top: 20%;    
+    line-height: 2rem;
+    
+}
+button{
+    padding: 0.85rem 2rem;
+    font-size: 1rem;
+    font-weight:1rem;
+    border-radius: 25px;
+    border: none;
+    
+}
+h2{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.copyCode:hover{
+    background-color: #004d7a;
+}
+
+.copyCode{
+    border-radius: 5px 15px 15px 5px;
+    background-color: rgb(4, 42, 75);
+    padding: 1rem;
+    border-left: 0.65rem solid white;
+    color: rgb(229, 245, 245);
+    display: inline;
+    text-align: center;
+    color: white;
+    
+}
+#btn1{
+    background-color: navy;
+    margin-right: 2rem;
+    color: white;
+}
+
+#btn2{
+    background-color: greenyellow;
+}
